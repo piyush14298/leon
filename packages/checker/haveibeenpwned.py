@@ -39,6 +39,7 @@ def run(string, entities):
             else:
                 utils.output('inter', 'no-pwnage', utils.translate('no-pwnage', data))
         else:
+            print(breached)
             data['result'] = ''
 
             for index, b in enumerate(breached):
